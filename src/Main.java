@@ -8,7 +8,9 @@ public class Main {
         byte age = 29;
         float hight = 1.91f;
 
-        System.out.println(firstname, lastname,\new);
+        System.out.println(firstname, lastname,\new)
+        Hello
+        ;
 
 
 

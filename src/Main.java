@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Hello");
 
         //Types of data
         String firstName = "Andrei";
@@ -12,13 +12,15 @@ public class Main {
         String eyeColor = "green";
         String hairColor = "light brown";
 
-        int bones = 206;
-        int muscles = 650;
+        short bones = 206;
+        short muscles = 650;
 
 
-
-        System.out.println(firstName + " " + lastName + "\n" +   );
-
+        System.out.println( firstName + " " + lastName + "\n"
+                + "\t" + age + " " + sex + "\n"
+                + "\t"  + race + "\n"
+                + "\t" + height + "m tall" + "\n"
+                + "\t" + hairColor + "hair" + "," + " " + eyeColor + "eyes");
 
 
     }

@@ -27,10 +27,18 @@ public class Main {
 
         double distributionOfHair = hairs/(bones + muscles);
         System.out.println( "\n" + "The distribution of hair: " + distributionOfHair);
+        System.out.printf("\t\t\t" + "Other Method: " + "%.12f", distributionOfHair);
+        System.out.println("\n"
+                + "\n"
+                + "Urmeaza punctul 3. Let's do some more calculus!");
 
-        System.out.printf( "\t\t\t" + "Other Method: " + "%.13f", distributionOfHair);
         byte a = 10;
         byte b = 4;
+        float c = a/b;
+        float d = (float) a / b;
+        System.out.printf("%.3f", c);
+        System.out.println("\n" + d + " - Nu inteleg aici de ce imi afiseaza rezultatul corect, dar la modelul anterior nu..." + "\n"
+        + "Urmeaza punctul 4. MORE!");
 
     }
 }

@@ -3,14 +3,21 @@ public class Main {
         System.out.println("Hello World!");
 
         //Types of data
-        String firstname = "Andrei";
-        String lastname = "Pop";
+        String firstName = "Andrei";
+        String lastName = "Pop";
         byte age = 29;
-        float hight = 1.91f;
+        char sex = 'M';
+        float height = 1.91f;
+        String race = "human";
+        String eyeColor = "green";
+        String hairColor = "light brown";
 
-        System.out.println(firstname, lastname,\new)
-        Hello
-        ;
+        int bones = 206;
+        int muscles = 650;
+
+
+
+        System.out.println(firstName + " " + lastName + "\n" +   );
 
 
 

@@ -14,7 +14,7 @@ public class Main {
 
         short bones = 206;
         short muscles = 650;
-
+        double hairs = 5000000d;
 
         System.out.println( "\t" + firstName + " " + lastName + "\n"
                 + "\t" + age + " " + sex + "\n"
@@ -22,6 +22,11 @@ public class Main {
                 + "\t" + height + "m tall" + "\n"
                 + "\t" + hairColor + " hair" + "," + " " + eyeColor + " eyes");
 
+        int bonesAndMuscles = bones + muscles;
+        System.out.println( "The total sum of Andrei's number of bones and muscles is: " + bonesAndMuscles );
+
+        double distributionOfHair = hairs/(bones + muscles);
+        System.out.println("The distribution of hair: " + distributionOfHair);
 
     }
 }

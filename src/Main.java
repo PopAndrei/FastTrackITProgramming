@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello and Welcome, ");
+        System.out.println("Hello and Welcome,");
 
         //Types of data
         String firstName = "Andrei";
@@ -32,13 +32,16 @@ public class Main {
                 + "\n"
                 + "Urmeaza punctul 3. Let's do some more calculus!");
 
-        byte a = 10;
+        float a = 10f;
         byte b = 4;
         float c = a/b;
         float d = (float) a / b;
-        System.out.printf("%.3f", c);
+        System.out.printf("%.1f", c);
         System.out.println("\n" + d + " - Nu inteleg aici de ce imi afiseaza rezultatul corect, dar la modelul anterior nu..." + "\n"
+                + "Aha! am descoperit, trebuie macar o variabila dintre a si b sa fie float sau double (ceva ce poate sa contina si ce e dupa virgula), altfel facea o operatie normala de integer  " + "\n"
         + "Urmeaza punctul 4. MORE!");
+
+
 
     }
 }

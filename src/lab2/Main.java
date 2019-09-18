@@ -24,7 +24,9 @@ public class Main {
         int rez = first + second;
         return rez;
     }
-    public static float sum ()
+    public static float sum (float first, float second){
+        return first + second;
+    }
     public static int subtraction (int first, int second) {
         int rez = first - second;
         return rez;

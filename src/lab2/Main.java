@@ -17,20 +17,20 @@ public class Main {
 
         System.out.println("4. " + "\n" + "\t" + "a." + punctulA(5,8,6) + "\n" + "\t" + "b." + punctulB(55,9) +
                 "\n" + "\t" + "c." +punctulC(20,3,5,8) +
-                "\n" + "\t" + "d." + punctulD(5,15,3,2,8));
+                "\n" + "\t" + "d." + punctulD(5,15,3,2,8) + "\n");
 
 
 
 
 
- /*     int subtraction = subtraction(x,y);
+      float subtraction = subtraction(x,y);
         System.out.println("The result of the subtraction is: " + subtraction);
 
-      int multiply = multiply(x,y);
+      float multiply = multiply(x,y);
         System.out.println("The result of the multiplication is: " + multiply);
 
-      int divide = divide(x,y);
-        System.out.println("The result of the division is: " + divide);*/
+      float divide = divide(x,y);
+        System.out.println("The result of the division is: " + divide);
 
 
     }
@@ -59,6 +59,7 @@ public class Main {
         int rez = first * second;
         return rez;
     }
+    public static float multiply (float first, float second) { return first * second;}
     public static int divide (int first, int second) {
         int rez = first / second;
         return rez;

@@ -52,9 +52,17 @@ public class Main {
 
         System.out.println("\n" + "7. The conversion of Fahrenheit to Celsius is: " + convertToCelsius(80));
 
+        System.out.println("\n" + "8. The convertion of inches to meters is: " + convertToMeters(100));
+
+        System.out.println("\n" + "9. ");
 
 
+//9.Scrieti o metoda java, care primeste distanta (in metrii) si timpul (ca si 3 numere: ore, minute, secunde),
+// si afiseaza viteza, in metrii pe secunda, kilometrii pe ora si mile pe ora. (Indiciu: 1 mila = 1609 metrii)
 
+        public static float calculateSpeed(int meters, int hours, int minutes, int seconds) {
+            speed =
+        }
 
     }
 
@@ -81,7 +89,11 @@ public class Main {
         //C = 5/9 * (F -32)
         float celsius = (fahrenheit - 32) * 5/9;
         return celsius;
+    }
 
+    public static float convertToMeters (float inches) {
+        float meters = inches / 39.37f;
+        return meters;
     }
 
 

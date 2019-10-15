@@ -54,17 +54,32 @@ public class Main {
 
         System.out.println("\n" + "8. The convertion of inches to meters is: " + convertToMeters(100));
 
-        System.out.println("\n" + "9. ");
+        System.out.println("\n" + "9. The calculated speed is: ");
+        calculateSpeed(100000, 1, 13, 45);
 
 
-//9.Scrieti o metoda java, care primeste distanta (in metrii) si timpul (ca si 3 numere: ore, minute, secunde),
-// si afiseaza viteza, in metrii pe secunda, kilometrii pe ora si mile pe ora. (Indiciu: 1 mila = 1609 metrii)
 
-        public static float calculateSpeed(int meters, int hours, int minutes, int seconds) {
-            speed =
-        }
+
 
     }
+
+    //9.Scrieti o metoda java, care primeste distanta (in metrii) si timpul (ca si 3 numere: ore, minute, secunde),
+// si afiseaza viteza, in metrii pe secunda, kilometrii pe ora si mile pe ora. (Indiciu: 1 mila = 1609 metrii)
+
+    public static void calculateSpeed (float meters, float hours, float minutes, float seconds) {
+        float timeHours = hours + minutes/60 + seconds/3600;
+        float timeSeconds = hours*3600 + minutes*60 + seconds;
+        float km = meters/1000;
+        float miles = meters/1609;
+        float speedMs = meters / timeSeconds;
+        float speedKmh = km / timeHours;
+        float speedMph = miles/timeHours;
+
+
+        System.out.println("The speed in Meter/Second is: " + speedMs + "\n" + "The speed in Kilometers/Hour is: " + speedKmh +
+                "\n" + "The speed in Miles/Hour is: " + speedMph);
+    }
+
 
     public static void writeJAVA () {
         System.out.println("       J " + "   a   " + " V     V " + "   a   ");

@@ -40,6 +40,21 @@ public class Main {
         System.out.println("\n" + "3.");
         writeJAVA();
 
+        int a = 10;
+        int b = 20;
+        int c = 30;
+        System.out.println("\n" + "4. The average of the three numbers is:" + "\t" + average(a,b,c));
+
+        System.out.println("\n" + "5.");
+        displayFace();
+
+        System.out.println("\n" + "6. The remainder of the division is:" + "\t" + remainderDivision(13,4));
+
+        System.out.println("\n" + "7. The conversion of Fahrenheit to Celsius is: " + convertToCelsius(80));
+
+
+
+
 
     }
 
@@ -50,9 +65,27 @@ public class Main {
         System.out.println("   J J   " + "a     a" + "    V    " + "a     a");
     }
 
+    public static int average (int first, int second, int third) {return (first + second + third)/3;}
+
+    public static void displayFace () {
+        System.out.println(" +\" \"\"\" \"+ ");
+        System.out.println("[| o   o |]");
+        System.out.println(" |   ^   |");
+        System.out.println(" |  \'-\'  |");
+        System.out.println(" +__ _ __+");
+    }
+
+    public static int remainderDivision (int first, int second) {return first%second;}
+
+    public static float convertToCelsius (float fahrenheit) {
+        //C = 5/9 * (F -32)
+        float celsius = (fahrenheit - 32) * 5/9;
+        return celsius;
+
+    }
 
 
-    public static void salut() {
+    public static void salut () {
         System.out.println("Hello" + "\n" + "\t" + "Andrei" + "\n");
     }
 

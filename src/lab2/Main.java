@@ -148,4 +148,5 @@ public class Main {
     public static int punctulB (int first, int second) { return (first +second) % second;}
     public static float punctulC (float first, float second, float third, float fourth) { return first + (-second * third) / fourth;}
     public static int punctulD (int first, int second, int third, int fourth, int fifth) {return first + second / third * fourth - fifth % third;}
+
 }

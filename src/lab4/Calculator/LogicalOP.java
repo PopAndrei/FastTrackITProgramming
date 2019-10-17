@@ -39,7 +39,6 @@ public class LogicalOP {
 
     //Write a program to sum only the odd number from 1 to 100, and compute the average.
 
-    public float oddSumandAverage(){
+    //public float oddSumandAverage(){
 
     }
-}

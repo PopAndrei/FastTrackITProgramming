@@ -18,7 +18,7 @@ public class AppMain {
         cat1.setAge(5);
         cat1.setHealthLevel((byte) 9);
         cat1.setHungerLevel((byte)10);
-        cat1.setHappyLevel((byte)3);
+        cat1.setHappyLevel((byte)3); //probabil era mai eficient sa pun direct int, dar am zis sa mai folosesc si cast
         cat1.setFavouriteFood("Whiskas");
         cat1.setFavouriteActivity("sleeping");
 

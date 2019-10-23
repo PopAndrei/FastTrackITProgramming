@@ -33,6 +33,17 @@ public class Main {
 
         //
 
+
+        lab4.until100(50);
+        System.out.println("\n");
+        lab4.untilMinus100(-99);
+        System.out.println("\n");
+        lab4.betweenTwo(-3,16);
+        System.out.println("\n");
+        lab4.fromBIGtoSMALL(1, -10);
+        System.out.println("\n");
+        lab4.fromONEtoHUNDRED();
+
         }
 
     }

@@ -37,8 +37,73 @@ public class LogicalOP {
         return (sum / counter);
     }
 
-    //Write a program to sum only the odd number from 1 to 100, and compute the average.
+    //TEMA LAB 12 - FOR
 
-    //public float oddSumandAverage(){
+
+    public void until100 (int number){
+        if (number >= 100) {
+            for (int i = number; i >= 100; i--) {
+                System.out.print(i + " ");
+            }
+        }
+            else {
+                for (int i = number; i<= 100; i++){
+                    System.out.print(i + " ");
+            }
+        }
+    }
+
+    public void untilMinus100 (int number){
+        if (number >= -100) {
+            for (int i = number; i >= -100; i--) {
+                System.out.print(i + " ");
+            }
+        }
+        else {
+            for (int i = number; i<= -100; i++){
+                System.out.print(i + " ");
+            }
+        }
+    }
+
+    public void betweenTwo (int first, int second){
+        if (first >= second){
+            for ( int i=first; i >= second; i--){
+                System.out.print(i + " ");
+            }
+        }
+        else {
+            for (int i = first; i <= second; i++ ){
+                System.out.print(i + " ");
+            }
+        }
+    }
+
+    public void fromBIGtoSMALL(int first, int second){
+        if (first >= second) {
+            for (int i = second; i <= first; i++) {
+                System.out.print(i + " ");
+            }
+        }
+        else {
+            for (int i = first; i <= second; i++){
+                System.out.print(i + " ");
+            }
+        }
+    }
+
+    public void fromONEtoHUNDRED () {
+        for (int i = 2; i % 2 == 0 && i <= 100; i+=2) {
+//            if (i % 2 == 0) {
+                System.out.print(i + " ");
+            }
+        }
+
+
+    //}
+
+    //5. Creati o metoda in clasa LogicalOp care sa afiseze toate numerele pare de la 1 la 100.
+
+
 
     }

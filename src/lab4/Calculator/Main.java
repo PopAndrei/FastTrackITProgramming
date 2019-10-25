@@ -34,17 +34,25 @@ public class Main {
         //
 
 
+        System.out.println("\n" + "Exercitiul 1. ");
         lab4.until100(50);
-        System.out.println("\n");
+        System.out.println("\n" + "Exercitiul 2. ");
         lab4.untilMinus100(-99);
-        System.out.println("\n");
+        System.out.println("\n" + "Exercitiul 3. ");
         lab4.betweenTwo(-3,16);
-        System.out.println("\n");
+        System.out.println("\n" + "Exercitiul 4. ");
         lab4.fromBIGtoSMALL(1, -10);
-        System.out.println("\n");
+        System.out.println("\n" + "Exercitiul 5. ");
         lab4.fromONEtoHUNDRED();
+        System.out.println("\n" + "Exercitiul 6. ");
+        lab4.oddOnetoHundred();
+        System.out.println("\n" + "Exercitiul 7. \n" + lab4.sumtoHundred(104));
+        System.out.println("\n" + "Exercitiul 8. \n" + lab4.averageToHundred(104));
+        System.out.println("\n" + "Exercitiul 9. ");
+       // lab4.star(50);
+        lab4.infiniteStar(100);
 
-        }
+    }
 
     }
 

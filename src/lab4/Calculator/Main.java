@@ -24,7 +24,7 @@ public class Main {
 //FOR 1. Write a java program to count backwards from a given number to a lower given number
 
         LogicalOP lab4 =  new LogicalOP();
-        lab4.countBackward(50,5);
+        lab4.countBackward(10,5);
 
         //Write a program called sumAndAverage to produce the sum of 1,2,3, .... to 100.
         // Also compute and display the average.
@@ -34,7 +34,7 @@ public class Main {
         //
 
 
-        System.out.println("\n" + "Exercitiul 1. ");
+        System.out.println("\n" + "TEMA LAB 12 - FOR"+"\n" + "Exercitiul 1. ");
         lab4.until100(50);
         System.out.println("\n" + "Exercitiul 2. ");
         lab4.untilMinus100(-99);
@@ -50,7 +50,31 @@ public class Main {
         System.out.println("\n" + "Exercitiul 8. \n" + lab4.averageToHundred(104));
         System.out.println("\n" + "Exercitiul 9. ");
        // lab4.star(50);
-        lab4.infiniteStar(100);
+        lab4.infiniteStar(33);
+
+        System.out.println("\n" + "TEMA LAB 12 - WHILE"+"\n" + "Exercitiul 1. ");
+        lab4.toOneHundred(110);
+        System.out.println("\n" + "Exercitiul 2. ");
+        lab4.toMinusOneHundred(-110);
+        System.out.println("\n" + "Exercitiul 3. ");
+        lab4.fromXtoY(-10,10);
+        System.out.println("\n" + "Exercitiul 4. ");
+        lab4.whileSmalltoBIG(20,4);
+        System.out.println("\n" + "Exercitiul 5. ");
+        lab4.evenTOhundred();
+        System.out.println("\n" + "Exercitiul 6. ");
+        lab4.oddTOhundred();
+        System.out.println("\n" + "Exercitiul 7. " + lab4.fromANDaverage());
+        System.out.println("\n" + "Exercitiul 8. \n" + lab4.theAverageofSEVEN(14,1));
+        System.out.println("\n" + "Exercitiul 9. ");
+        lab4.fibonacciNumbers(30);
+        System.out.println("\n" + "Exercitiul 10. ");
+        lab4.CozaLozaWoza();
+
+
+
+
+
 
     }
 

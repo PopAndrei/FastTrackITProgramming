@@ -4,7 +4,7 @@ public class Dog extends Animal {
 
 
     Dog(){
-        super.name = "capa";
+        setName("Kapa");
     }
 
     //Tema - Mostenire in AnimalRescue

@@ -1,4 +1,4 @@
 package lab4.AnimalRescue;
 
-public class CatFood {
+public class CatFood extends Food{
 }

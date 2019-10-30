@@ -1,4 +1,4 @@
 package lab4.AnimalRescue;
 
-public class Veterinarian {
+public class Veterinarian extends Human {
 }

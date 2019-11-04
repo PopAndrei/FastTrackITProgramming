@@ -51,5 +51,16 @@ public class LogicalOP {
         }
     }
 
-    //
+
+    public float averageArray (int [] array){
+        int sum = 0;
+        for (int i = 1; i <= array.length; i++ ) {
+            array [i-1] = i;
+            sum += i;
+        }
+        return sum/array.length;
+    }
+
+    //4. Creati o metoda care sa primeasca un parametru de tip array de numere, si sa fie populat cu valori.
+    // Metoda sa calculeze si sa returneze media numerelor din array. Apelati metoda in main() pentru a verifica daca functioneaza.
 }

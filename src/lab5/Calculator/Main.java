@@ -16,6 +16,7 @@ public class Main {
         int [] emptyArray = new int [50];
         op.evenArray(emptyArray);
         System.out.println("\n\nExercitiul 4. ");
+        System.out.println(op.averageArray(emptyArray));
 
 
 

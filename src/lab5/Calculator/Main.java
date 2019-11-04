@@ -16,7 +16,16 @@ public class Main {
         int [] emptyArray = new int [50];
         op.evenArray(emptyArray);
         System.out.println("\n\nExercitiul 4. ");
+        emptyArray = new int [4];
         System.out.println(op.averageArray(emptyArray));
+        System.out.println("\n\nExercitiul 5. ");
+
+        String [] wordArray = new String [] {"Amdrei", "Ardei", "Andei", "Anrei", "Aluetu", "Andrei"};
+        System.out.println(op.checkString(wordArray, "Andrei"));
+
+        System.out.println("\n\nExercitiul 6. ");
+        emptyArray = new int [] {1,2,3,4,5,6,7,8,9,10};
+        op.checkPosition(emptyArray, 8);
 
 
 

@@ -53,7 +53,7 @@ public class LogicalOP {
 
 
     public float averageArray (int [] array){
-        int sum = 0;
+        float sum = 0;
         for (int i = 1; i <= array.length; i++ ) {
             array [i-1] = i;
             sum += i;
@@ -61,6 +61,27 @@ public class LogicalOP {
         return sum/array.length;
     }
 
-    //4. Creati o metoda care sa primeasca un parametru de tip array de numere, si sa fie populat cu valori.
-    // Metoda sa calculeze si sa returneze media numerelor din array. Apelati metoda in main() pentru a verifica daca functioneaza.
+
+    public boolean checkString (String [] array, String word) {
+        for (int i = 0; i < array.length; i++) {
+            if (word.equals(array[i])) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
+    public void checkPosition (int [] array, int number) {
+        for (int i = 0; i < array.length; i++) {
+            if (number == array[i]) {
+                System.out.println("The position is: " + i);
+            }
+        }
+    }
+
+    //6. Creati o metoda care sa primeasca un parametru de tip array de numere, populat cu valori, si un parametru de tip numar.
+    // Metoda sa verifice daca numarul primit se afla in array-ul primit, si daca da, atunci sa returneze pozitia pe care
+    // se afla numarul.
+    // Apelati metoda in main() pentru a verifica daca functioneaza.
 }

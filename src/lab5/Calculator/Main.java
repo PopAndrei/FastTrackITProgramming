@@ -27,6 +27,19 @@ public class Main {
         emptyArray = new int [] {1,2,3,4,5,6,7,8,9,10};
         op.checkPosition(emptyArray, 8);
 
+        System.out.println("\n\nExercitiul 7. ");
+        op.arraySYMBOL('$'); //am scris metoda in asa fel incat sa se poata pune orice caracter aici, chiar si acea linie
+        System.out.println("\n\nExercitiul 8. ");
+        op.displayWithout(emptyArray, 5);
+
+        System.out.println("\n\nExercitiul 9. ");
+        emptyArray = new int [] {-10,2,3,4,5,-13,7,-11,9,10};
+        op.secondLowest(emptyArray);
+
+        System.out.println("\n\nExercitiul 10. ");
+        int [] firstArray = new int [] {10,2,3,4,5,13,7,11,9,10};
+        emptyArray = new int [10];
+        op.copyArray(firstArray,emptyArray);
 
 
 

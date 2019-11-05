@@ -172,9 +172,8 @@ public class LogicalOP {
             row++;
             System.out.print("\n" + "\n");
 
-            {for (int j = 0; j <= numberOfStars - row; j++ ) {
+            for (int j = 0; j <= numberOfStars - row; j++ ) {
                 System.out.print("*");
-            }
             }
         }
     }

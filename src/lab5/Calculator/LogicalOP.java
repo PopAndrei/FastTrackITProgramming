@@ -80,8 +80,56 @@ public class LogicalOP {
         }
     }
 
-    //6. Creati o metoda care sa primeasca un parametru de tip array de numere, populat cu valori, si un parametru de tip numar.
-    // Metoda sa verifice daca numarul primit se afla in array-ul primit, si daca da, atunci sa returneze pozitia pe care
-    // se afla numarul.
+    public void arraySYMBOL (char symbol){
+        char [] line = new char [10];
+       for (int i = 0; i < line.length; i++){
+           line [i] = symbol;
+           System.out.println("\n");
+               for (int j = 0; j < line.length; j++){
+                   System.out.print(line[i] + " ");
+           }
+       }
+
+    }
+
+    public void displayWithout (int [] array, int number) {
+        for (int i = 0; i < array.length; i++) {
+            if (number == array[i]) {
+                System.out.print("");
+            } else {
+                System.out.print(array[i] + " ");
+            }
+        }
+    }
+
+    public void secondLowest (int [] array) {
+        int lowest = array[0];
+        int secondlowest = array [0];
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] <= lowest){
+                lowest = array [i];
+            }
+        }
+            for (int j = 0; j< array.length; j++){
+                if (array[j] <= secondlowest && array[j] != lowest){
+                    secondlowest = array[j];
+                }
+            }
+        System.out.print("The lowest number in the array is: " + lowest + "\nAnd the second lowest number is: " + secondlowest);
+        }
+
+    public void copyArray ( int [] firstarray, int [] secondarray){
+        System.out.println("Original array: " + "    Copied array: ");
+        for (int i = 0; i < firstarray.length; i++) {
+            secondarray [i] = firstarray [i];
+            System.out.println(firstarray[i] + "\t\t\t\t\t" + secondarray[i]);
+        }
+        }
+
+
+
+
+    //10. Creati o metoda care sa primeasca doi parametrii: un array populat cu valori, si un array gol.
+    // Metoda sa copieze toate valorile din primul array, parcurgandu-l, in cel de-al doilea.
     // Apelati metoda in main() pentru a verifica daca functioneaza.
 }

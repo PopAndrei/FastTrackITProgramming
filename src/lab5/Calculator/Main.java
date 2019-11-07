@@ -41,6 +41,22 @@ public class Main {
         emptyArray = new int [10];
         op.copyArray(firstArray,emptyArray);
 
+        System.out.println("\n\n LAB 13 TEMA OPTIONALA ARRAYS - Exercitiul 1. ");
+        int [] anotherArray = new int []{-1,-1,-3,4,5,13,7,11,9,10};
+        op.secondLow(anotherArray);
+
+        System.out.println("\n\nExercitiul 2. ");
+        op.insertINarray(3, 7,anotherArray);
+
+        System.out.println("\n\nExercitiul 3. ");
+        op.lowestANDbiggest(anotherArray);
+
+        System.out.println("\n\nExercitiul 4. ");
+        anotherArray = new int []{1,2,3,4,5,6,7};
+        op.reverseArray(anotherArray);
+
+
+
 
 
 

@@ -8,6 +8,9 @@ public class AppMain {
         System.out.println(cat1.getName());
         System.out.println(cat2.getName());
 
+        Adopter adopt1 = new Adopter();
+        System.out.println(adopt1.getOcupation());
+
 
     }
 }

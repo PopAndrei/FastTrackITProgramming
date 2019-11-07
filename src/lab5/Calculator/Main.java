@@ -55,6 +55,19 @@ public class Main {
         anotherArray = new int []{1,2,3,4,5,6,7};
         op.reverseArray(anotherArray);
 
+        System.out.println("\n\nExercitiul 5. ");
+        anotherArray = new int []{-1,-1,-3,4,5,13,7,11,9,10,13};
+        op.duplicateElements(anotherArray);
+
+        System.out.println("\n\nExercitiul 6. ");
+        String [] firstarray = new String []{"Andrei", "Cosmin", "Diana", "Vlad"};
+        String [] secondarray = new String [] {"Andre", "Cosmin", "Dina", "Vlad Tepes", "Andrei"};
+        op.duplicateStrings(firstarray,secondarray);
+
+        System.out.println("\n\nExercitiul 7. ");
+        anotherArray = new int[]{10,2,3,4,5,13,7,11,9,10};
+        op.arrangeArray(anotherArray);
+
 
 
 

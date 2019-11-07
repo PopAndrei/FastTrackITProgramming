@@ -193,6 +193,42 @@ public class LogicalOP {
         }
     }
 
+    public void duplicateElements (int [] array) {
+        System.out.print("These are the duplicate elements in the array: ");
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array.length; j++) {
+                if (array[i] == array[j] && i != j) {
+                    System.out.print(array[i] + " ");
+                }
+            }
+        }
+    }
 
-    //4. Creati o metoda care sa inverseze valorile unui array de int-uri.
+    public void duplicateStrings (String [] firstarray, String [] secondarray){
+        for (int i = 0; i < firstarray.length; i++){
+            for (int j = 0; j < secondarray.length; j++){
+                if (firstarray[i].equals(secondarray[j])){
+                    System.out.print(firstarray[i] + " ");
+                }
+            }
+       }
+    }
+
+    public void arrangeArray (int [] array){
+
+            for (int i = 0; i < array.length - 1; i++) {
+                for (int j = i+1; j < array.length; j++)
+                if (array[i] >= array[j]) {
+                    int number = array[i];
+                    array[i] = array[j];
+                    array[j] = number;
+                }
+            }
+
+            for (int i = 0; i < array.length; i++) {
+                System.out.print(array[i] + " ");
+            }
+    }
+
+    //7. Creati o metoda care sa primeasca un array de numere ne-ordonat, si sa il returneze ordonat crescator.
 }
